@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrísimo | Churros congelados premium para puntos de venta</title>
+    <meta name="description" content="Churrísimo: churros congelados premium listos en minutos. Soluciones gastronómicas de alta rotación para cafeterías, retail y puntos de venta en Tucumán.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="./">
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="es_AR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Churrísimo | Churros congelados premium">
+    <meta property="og:description" content="Churros congelados premium listos en minutos. Alta rotación y máxima rentabilidad para tu negocio.">
+    <meta property="og:image" content="assets/Logo%20Churrisimo.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Churrísimo | Churros congelados premium">
+    <meta name="twitter:description" content="Churros congelados premium listos en minutos. Alta rotación y máxima rentabilidad.">
+    <meta name="twitter:image" content="assets/Logo%20Churrisimo.png">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="assets/Logo%20Churrisimo.png">
+    <link rel="apple-touch-icon" href="assets/Logo%20Churrisimo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Churrísimo",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "San Miguel de Tucumán",
+        "addressRegion": "Tucumán",
+        "addressCountry": "AR"
+      },
+      "telephone": "+54 9 381 582-1069",
+      "url": "./"
+    }
+    </script>
+</head>
+<body class="overflow-x-hidden" id="top">
+
+    <!-- Header / Nav -->
+    <nav class="fixed w-full z-50 bg-[#fcf6e2]/80 backdrop-blur-md border-b border-azul/10 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#top" class="flex items-center gap-3" aria-label="Ir al inicio">
+                <!-- Mini Logo en Nav -->
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow border border-azul/20 overflow-hidden">
+                    <img src="assets/Logo%20Churrisimo.png" alt="Logo Churrísimo" class="w-full h-full object-contain p-1">
+                </div>
+                <div class="text-2xl font-brand tracking-wider">CHURRÍSIMO</div>
+            </a>
+
+            <!-- Links (desktop) -->
+            <div class="hidden md:flex items-center gap-3">
+                <a href="#propuesta" class="px-3 py-2 rounded-full font-semibold hover:bg-azul/10 transition">Por qué elegirnos</a>
+                <a href="#producto" class="px-3 py-2 rounded-full font-semibold hover:bg-azul/10 transition">Producto</a>
+                <a href="#rentabilidad" class="px-3 py-2 rounded-full font-semibold hover:bg-azul/10 transition">Rentabilidad</a>
+                <a href="#contacto" class="bg-azul text-[#fcf6e2] px-6 py-2 rounded-full font-semibold hover:opacity-90 transition shadow-lg">Contactar</a>
+            </div>
+
+            <!-- Hamburguesa (mobile) -->
+            <button id="menuBtn" class="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-xl border border-azul/20 bg-white/60 backdrop-blur hover:bg-white transition"
+                aria-label="Abrir menú" aria-controls="mobileMenu" aria-expanded="false" type="button">
+                <svg class="w-6 h-6 text-azul" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Menú mobile -->
+        <div id="mobileMenu" class="hidden md:hidden">
+            <div class="container mx-auto px-6 pt-4 pb-6">
+                <div class="bg-white/90 backdrop-blur rounded-2xl border border-azul/10 shadow-xl p-4 space-y-2">
+                    <a href="#propuesta" class="mobile-link block px-4 py-3 rounded-xl font-semibold hover:bg-azul/10 transition">Por qué elegirnos</a>
+                    <a href="#producto" class="mobile-link block px-4 py-3 rounded-xl font-semibold hover:bg-azul/10 transition">Producto</a>
+                    <a href="#rentabilidad" class="mobile-link block px-4 py-3 rounded-xl font-semibold hover:bg-azul/10 transition">Rentabilidad</a>
+                    <a href="#contacto" class="mobile-link block px-4 py-3 rounded-xl font-semibold bg-azul text-[#fcf6e2] hover:opacity-90 transition">Contactar</a>
+
+                    <div class="pt-2 border-t border-azul/10 flex flex-col gap-2">
+                        <a href="https://wa.me/5493815821069" class="inline-flex items-center justify-center gap-2 border-2 border-azul px-4 py-3 rounded-xl font-bold hover:bg-azul hover:text-white transition" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp 3815821069">
+                            <span>WhatsApp</span>
+                            <span class="opacity-80 font-semibold">3815821069</span>
+                        </a>
+                        <a href="tel:+543815821069" class="inline-flex items-center justify-center gap-2 border-2 border-azul px-4 py-3 rounded-xl font-bold hover:bg-azul hover:text-white transition" aria-label="Llamar al 3815821069">
+                            <span>Llamar</span>
+                            <span class="opacity-80 font-semibold">3815821069</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center pt-20 hero-gradient relative overflow-hidden">
+        <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center relative z-10">
+            <div class="lg:w-1/2 mb-12 lg:mb-0">
+                <span class="inline-block bg-azul text-[#fcf6e2] px-4 py-1 rounded-full text-sm font-bold mb-4">LÍDERES EN CONGELADOS</span>
+                <h1 class="text-5xl sm:text-6xl md:text-8xl font-brand mb-6 leading-none uppercase">SABOR ARTESANAL, ESCALA INDUSTRIAL.</h1>
+                <p class="text-xl mb-8 max-w-lg opacity-90">Soluciones gastronómicas de alta rotación para cafeterías, retail y puntos de venta estratégicos.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#producto" class="border-2 border-azul px-8 py-3 rounded-full font-bold hover:bg-azul hover:text-white transition">Ver Productos</a>
+                    <a href="#rentabilidad" class="bg-azul text-white px-8 py-3 rounded-full font-bold shadow-xl hover:scale-105 transition">Rentabilidad</a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 w-full relative flex justify-center lg:justify-end">
+                <!-- Contenedor del Logo (Limpio, sin imagen de fondo) -->
+                <div class="w-full max-w-[420px] sm:max-w-[520px] lg:max-w-[560px] aspect-square bg-white/40 rounded-full flex items-center justify-center relative border-[12px] sm:border-[16px] lg:border-[20px] border-white shadow-2xl">
+                    <div class="text-center p-6 sm:p-8">
+                        <!-- Logo Central -->
+                        <div class="logo-placeholder mb-6 flex flex-col items-center justify-center">
+                             <img src="assets/Logo%20Churrisimo.png" alt="Logo Churrísimo" class="w-full h-full object-contain p-5">
+                        </div>
+                        <div class="relative z-10">
+                             <div class="bg-azul text-white px-8 py-3 rounded-2xl shadow-xl inline-block">
+                                <p class="font-brand text-2xl tracking-wide uppercase">LISTOS EN MINUTOS</p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Elemento decorativo flotante -->
+                <div class="absolute -top-2 -right-2 sm:-top-4 sm:-right-4 bg-white p-4 sm:p-6 rounded-2xl shadow-xl rotate-12 border-2 border-azul/10">
+                    <p class="font-brand text-lg sm:text-2xl text-azul">100% ARTESANAL</p>
+                    <p class="text-[9px] sm:text-[10px] uppercase font-bold tracking-widest text-center">Calidad Premium</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Propuesta de Valor -->
+    <section class="py-24 bg-white" id="propuesta">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20 reveal">
+                <h2 class="text-4xl md:text-5xl font-brand mb-4">POR QUÉ ELEGIRNOS</h2>
+                <div class="w-24 h-1 bg-azul mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="card-premium p-8 rounded-3xl text-center reveal" style="transition-delay: 0.1s">
+                    <div class="w-16 h-16 bg-azul/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-azul" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="font-brand text-2xl mb-3">Alta Rotación</h3>
+                    <p class="text-sm opacity-70">Producto de demanda masiva que garantiza flujo constante.</p>
+                </div>
+                <div class="card-premium p-8 rounded-3xl text-center reveal" style="transition-delay: 0.2s">
+                    <div class="w-16 h-16 bg-azul/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-azul" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="font-brand text-2xl mb-3">Sin Complicaciones</h3>
+                    <p class="text-sm opacity-70">No requiere personal especializado ni infraestructura compleja.</p>
+                </div>
+                <div class="card-premium p-8 rounded-3xl text-center reveal" style="transition-delay: 0.3s">
+                    <div class="w-16 h-16 bg-azul/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-azul" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+                    </div>
+                    <h3 class="font-brand text-2xl mb-3">Calidad Premium</h3>
+                    <p class="text-sm opacity-70">Sabor casero estandarizado bajo procesos industriales.</p>
+                </div>
+                <div class="card-premium p-8 rounded-3xl text-center reveal" style="transition-delay: 0.4s">
+                    <div class="w-16 h-16 bg-azul/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-azul" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="font-brand text-2xl mb-3">Listo en Minutos</h3>
+                    <p class="text-sm opacity-70">Optimización de tiempos de servicio y reducción de mermas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- El Producto -->
+    <section class="py-24 hero-gradient" id="producto">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-16">
+                <div class="md:w-1/2 reveal">
+                    <h2 class="text-4xl md:text-5xl font-brand mb-6 text-azul">NUESTRA LÍNEA CLÁSICA</h2>
+                    <p class="text-lg mb-6">Desarrollamos un producto versátil, diseñado para mantener su textura crocante por fuera y suavidad por dentro tras la regeneración.</p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center gap-3">
+                            <span class="w-2 h-2 bg-azul rounded-full"></span>
+                            <span>Masa tradicional artesanal (receta probada)</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="w-2 h-2 bg-azul rounded-full"></span>
+                            <span>Presentación: Por docena o Caja Máster</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="w-2 h-2 bg-azul rounded-full"></span>
+                            <span>Apto para fritura o terminación en horno</span>
+                        </li>
+                    </ul>
+                    <div class="p-6 bg-white rounded-2xl border-l-8 border-azul shadow-xl">
+                        <p class="italic text-azul font-medium">"No solo vendemos churros, proveemos una solución que vuela de los estantes."</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2 grid grid-cols-2 gap-4 reveal">
+                    <div class="rounded-3xl overflow-hidden shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1505851498219-ee2449c18936?auto=format&fit=crop&q=80&w=800" alt="Churros recién hechos" class="w-full h-full object-cover">
+                    </div>
+                    <div class="rounded-3xl overflow-hidden shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?auto=format&fit=crop&q=80&w=400" alt="Churros con Azucar" class="w-full h-full object-cover">
+                    </div>
+                    <div class="rounded-3xl overflow-hidden shadow-2xl col-span-2">
+                        <img src="https://images.unsplash.com/photo-1515579171902-e0c5f918b32b?auto=format&fit=crop&q=80&w=800" alt="Churros con chocolate" class="w-full h-56 object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rentabilidad / Tabla Precios -->
+    <section class="py-24 bg-white" id="rentabilidad">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-4xl md:text-5xl font-brand mb-4">MÁXIMA RENTABILIDAD</h2>
+                <p class="text-xl">Escalas de precios diseñadas para el crecimiento de su negocio</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto reveal">
+                <div class="overflow-hidden rounded-3xl border border-azul/20 shadow-2xl">
+                    <table class="w-full text-left">
+                        <thead class="bg-azul text-white">
+                            <tr>
+                                <th class="p-3 sm:p-6 text-base sm:text-xl font-brand tracking-wide sm:tracking-wider">CANTIDAD (DOCENAS)</th>
+                                <th class="p-3 sm:p-6 text-base sm:text-xl font-brand tracking-wide sm:tracking-wider">PRECIO POR DOCENA</th>
+                                <th class="p-3 sm:p-6 text-base sm:text-xl font-brand tracking-wide sm:tracking-wider">STATUS</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-azul/10">
+                            <tr class="hover:bg-azul/5 transition">
+                                <td class="p-3 sm:p-6 font-semibold">1 a 50</td>
+                                <td class="p-3 sm:p-6 text-xl sm:text-2xl font-brand tracking-wide">$2.600</td>
+                                <td class="p-3 sm:p-6">
+                                    <span class="inline-flex items-center justify-center bg-blue-100 text-blue-800 text-[10px] sm:text-xs font-bold px-2 sm:px-3 py-1 rounded-full uppercase tracking-wide sm:tracking-wider whitespace-nowrap">Inicial</span>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-azul/5 transition bg-azul/5">
+                                <td class="p-3 sm:p-6 font-semibold">50 a 100</td>
+                                <td class="p-3 sm:p-6 text-xl sm:text-2xl font-brand tracking-wide">$2.400</td>
+                                <td class="p-3 sm:p-6">
+                                    <span class="inline-flex items-center justify-center bg-green-100 text-green-800 text-[10px] sm:text-xs font-bold px-2 sm:px-3 py-1 rounded-full uppercase tracking-wide sm:tracking-wider whitespace-nowrap">Mayorista</span>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-azul/5 transition">
+                                <td class="p-3 sm:p-6 font-semibold">Más de 100</td>
+                                <td class="p-3 sm:p-6 text-xl sm:text-2xl font-brand tracking-wide">$2.200</td>
+                                <td class="p-3 sm:p-6">
+                                    <span class="inline-flex items-center justify-center bg-purple-100 text-purple-800 text-[10px] sm:text-xs font-bold px-2 sm:px-3 py-1 rounded-full uppercase tracking-wide sm:tracking-wider whitespace-nowrap">Distribución</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="bg-azul rounded-3xl p-8 text-white shadow-xl">
+                        <p class="uppercase text-sm font-bold tracking-widest opacity-80 mb-2">Precio sugerido al público</p>
+                        <h3 class="text-5xl font-brand mb-2">$3.000 – $3.500</h3>
+                        <p class="text-sm opacity-90 italic">Asegure un margen de beneficio superior al 50% por unidad vendida.</p>
+                    </div>
+                    <div class="p-6 border-2 border-dashed border-azul/30 rounded-3xl flex items-center gap-6">
+                        <div class="text-4xl">🚀</div>
+                        <div>
+                            <p class="font-bold text-azul">Fácil incorporación</p>
+                            <p class="text-sm">Adaptable a cualquier punto de venta actual.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contacto -->
+    <footer class="bg-azul text-[#fcf6e2] py-20" id="contacto">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-12">
+                <div class="md:w-1/2 text-center md:text-left">
+                    <h2 class="text-5xl font-brand mb-6 uppercase">ÚNASE A NUESTRA RED</h2>
+                    <p class="text-xl opacity-90 mb-8">Estamos sumando nuevos puntos de venta estratégicos en Tucumán. Seamos socios comerciales.</p>
+                    
+                    <div class="space-y-4 text-lg">
+                        <div class="flex items-center gap-4 justify-center md:justify-start">
+                            <span class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">📍</span>
+                            <span>San Miguel de Tucumán, Argentina</span>
+                        </div>
+                        <div class="flex items-center gap-4 justify-center md:justify-start">
+                            <span class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">💬</span>
+                            <span>
+                                Consultas por WhatsApp:
+                                <a class="underline font-bold hover:opacity-90" href="https://wa.me/5493815821069" target="_blank" rel="noopener noreferrer">+54 9 381 582-1069</a>
+                                <span class="opacity-80">|</span>
+                                <a class="underline font-bold hover:opacity-90" href="tel:+543815821069">Llamar</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 w-full">
+                    <div class="bg-white/10 p-8 rounded-3xl backdrop-blur-md border border-white/10">
+                        <h3 class="text-2xl font-brand mb-6 uppercase">Contactanos ahora</h3>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <a href="https://wa.me/5493815821069"
+                               class="inline-flex items-center justify-center gap-3 w-full bg-[#fcf6e2] text-azul py-4 rounded-xl font-bold hover:scale-[1.02] transition shadow-2xl uppercase tracking-widest"
+                               target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp al 3815821069">
+                                <span>WhatsApp</span>
+                            </a>
+                            <a href="tel:+543815821069"
+                               class="inline-flex items-center justify-center gap-3 w-full border-2 border-[#fcf6e2] text-[#fcf6e2] py-4 rounded-xl font-bold hover:bg-[#fcf6e2] hover:text-azul transition shadow-2xl uppercase tracking-widest"
+                               aria-label="Llamar al 3815821069">
+                                <span>Llamar</span>
+                            </a>
+                        </div>
+
+                        <p class="mt-5 text-sm opacity-80 text-center">
+                            Horario de atención y respuesta por WhatsApp.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-20 pt-10 border-t border-white/10 text-center text-sm opacity-60">
+                <p>&copy; 2026 CHURRÍSIMO - Productos Congelados Premium. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Churrísimo">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .ring { fill: none; stroke: #2f5794; stroke-width: 20; }
+      .brand { fill: #2f5794; font-family: "Lilita One", "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-weight: 700; letter-spacing: 2px; }
+      .sub { fill: #2f5794; font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-weight: 600; letter-spacing: 3px; opacity: 0.9; }
+    </style>
+  </defs>
+  <circle class="bg" cx="256" cy="256" r="246"/>
+  <circle class="ring" cx="256" cy="256" r="235"/>
+  <text class="brand" x="256" y="255" font-size="64" text-anchor="middle" dominant-baseline="middle">CHURRÍSIMO</text>
+  <text class="sub" x="256" y="315" font-size="18" text-anchor="middle" dominant-baseline="middle">CONGELADOS PREMIUM</text>
+</svg>

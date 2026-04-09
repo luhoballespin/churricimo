@@ -1,0 +1,70 @@
+:root {
+  --azul: #2f5794;
+  --crema: #fcf6e2;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--crema);
+  color: var(--azul);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mobile polish */
+@media (max-width: 640px) {
+  body {
+    text-size-adjust: 100%;
+  }
+}
+.font-brand {
+  font-family: 'Lilita One', cursive;
+}
+.hero-gradient {
+  background: linear-gradient(135deg, var(--crema) 0%, #f5ecd1 100%);
+}
+.card-premium {
+  background: white;
+  border: 1px solid rgba(47, 87, 148, 0.1);
+  transition: all 0.3s ease;
+}
+.card-premium:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(47, 87, 148, 0.1);
+}
+.bg-azul {
+  background-color: var(--azul);
+}
+.text-azul {
+  color: var(--azul);
+}
+.border-azul {
+  border-color: var(--azul);
+}
+
+/* Animaciones */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Estilo para el contenedor del logo */
+.logo-placeholder {
+  width: clamp(120px, 18vw, 170px);
+  height: clamp(120px, 18vw, 170px);
+  background: white;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(47, 87, 148, 0.15);
+  margin: 0 auto;
+  border: 3px solid var(--azul);
+}
